@@ -1,0 +1,13 @@
+0. Installing react-redux and redux-toolkit
+1. Making a redux folder
+2. Inside that, making a store.js file
+3. write the boilerplate: configurestore and reducer
+4. bringing store and provider in index.js and wrap App by provider
+5. Creating a slice: name, initial state, reducers
+6. export by name each action as reducer and export default reducer
+7. attach reducer to store
+8. Whenever we want to do something (like adding, deleting) dispatch the corresponding action useDispatch
+9. Then the reducer receives the action with the payload and update the state accordingly
+10. useSelector to get the state from the store
+11. for more actions (functionalities), we repeat previous steps
+12. for more states, we repeat the previous states
